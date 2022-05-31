@@ -1,0 +1,24 @@
+.places__image {
+    grid-row: 2 / 4;
+    width: 100%;
+}
+
+@media (max-width: 1025px) {
+    .places__image {
+       max-width: 440px;
+    }
+}
+
+@media (max-width: 770px) {
+    .places__image {
+       max-width: 340px;
+    }
+}
+
+@media (max-width: 500px) {
+    .places__image {
+       width: 100vw;
+       grid-area: image;
+       margin-bottom: 32px;
+    }
+}

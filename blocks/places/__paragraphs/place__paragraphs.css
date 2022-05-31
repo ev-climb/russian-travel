@@ -1,0 +1,10 @@
+.places__paragraphs {
+    display: grid;
+    gap: 26px;
+}
+
+@media (max-width: 500px) {
+    .places__paragraphs {
+        grid-area: paragraph;
+    }
+}
