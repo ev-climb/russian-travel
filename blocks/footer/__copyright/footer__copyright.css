@@ -9,11 +9,6 @@
     transition: all 0.3s ease-in-out;
 }
 
-.footer__copyright p {
-    margin: 0;
-    padding: 0;
-}
-
 @media (max-width: 500px) {
     .footer__copyright {
         margin-top: 48px;
