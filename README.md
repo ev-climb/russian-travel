@@ -4,4 +4,4 @@
 
 Сайт написан на CSS3  и HTML5 без использования языков програмирования. Применялись технологии GRID и FLEX.
 
-git@github.com:ev-climb/russian-travel.git
+https://ev-climb.github.io/russian-travel/
