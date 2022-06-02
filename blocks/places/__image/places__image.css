@@ -15,10 +15,16 @@
     }
 }
 
-@media (max-width: 630px) {
+@media (max-width: 767px) {
     .places__image {
-       width: 100vw;
        grid-area: image;
        margin-bottom: 32px;
+       max-width: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .places__image {
+        width: 100vw;
     }
 }

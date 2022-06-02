@@ -1,17 +1,4 @@
 .intro {
-    max-width: 690px;
-    padding-left: 100px;
-    align-self: baseline;
-}
-
-@media (max-width: 1100px) {
-    .intro {
-       padding: 0;
-    }
-}
-
-@media (max-width: 770px) {
-    .intro {
-       max-width: 100%;
-    }
+    max-width: 984px;
+    width: 100%;
 }

@@ -6,12 +6,29 @@
    flex-direction: column;
    align-items:center;
    justify-content: center;
-   position: absolute;
-   top: 0;
    text-decoration: none;
    transition: all 0.3s ease-in-out;
+   padding-bottom: 41.5%;
 }
 
 .cover__overlay:hover {
    background-color: rgba(42,44,47,0.8);
+}
+
+@media (max-width: 1025px) {
+   .cover__overlay {
+      padding-bottom: 38.2%;
+   }
+}
+
+@media (max-width: 770px) {
+   .cover__overlay {
+      padding-bottom: 35.4%;
+   }
+}
+
+@media (max-width: 500px) {
+   .cover__overlay {
+      padding-bottom: 18.7%;
+   }
 }

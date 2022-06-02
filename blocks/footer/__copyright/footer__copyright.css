@@ -1,6 +1,5 @@
 .footer__copyright {
     margin: 0;
-    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -8,6 +7,11 @@
     color: #FFFFFF;
     text-decoration: none;
     transition: all 0.3s ease-in-out;
+}
+
+.footer__copyright p {
+    margin: 0;
+    padding: 0;
 }
 
 @media (max-width: 500px) {

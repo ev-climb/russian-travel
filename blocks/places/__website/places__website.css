@@ -5,10 +5,15 @@
     margin-bottom: 48px;
 }
 
-@media (max-width: 630px) {
+@media (max-width: 767px) {
     .places__website {
-        padding-left: 16px;
         margin-bottom: 32px;
         grid-area: website;
+    }
+}
+
+@media (max-width: 500px) {
+    .places__website {
+        margin-left: 16px;
     }
 }

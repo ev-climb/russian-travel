@@ -4,7 +4,9 @@
     grid-template-rows: repeat(3, 1fr);
     gap: 16px;
     width: 100%;
-    padding-bottom: 12px;
+    padding: 0 0 12px;
+    list-style-type:none;
+    margin: 0;
 }
 
 @media (max-width: 1025px) {
@@ -14,7 +16,7 @@
     }
 }
 
-@media (max-width: 770px) {
+@media (max-width: 824px) {
     .photo-grid {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(6, 1fr);

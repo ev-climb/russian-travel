@@ -1,5 +1,4 @@
 .places__paragraph {
-    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -10,15 +9,10 @@
     max-width: 484px;
 }
 
-@media (max-width: 1025px) {
-    .places__paragraph {
-       max-width: 456px;
-    }
-}
-
-@media (max-width: 770px) {
+@media (max-width: 820px) {
     .places__paragraph {
         font-size: 16px;
+        min-width: 352px;
     }
 }
 
@@ -26,5 +20,6 @@
     .places__paragraph {
         margin-left: 16px;
         margin-right: 16px;
+        min-width: 200px;
     }
 }

@@ -13,17 +13,18 @@
 @media (max-width: 1025px) {
     .places__place {
         column-gap: 32px;
+        grid-template-columns: 1fr 1fr;
     }
 }
 
-@media (max-width: 770px) {
+@media (max-width: 810px) {
     .places__place {
         column-gap: 28px;
         padding-bottom: 73px;
     }
 }
 
-@media (max-width: 630px) {
+@media (max-width: 767px) {
     .places__place {
         grid-template-columns: 1fr;
         grid-template-areas:

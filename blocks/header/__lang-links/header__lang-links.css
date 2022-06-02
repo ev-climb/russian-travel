@@ -1,8 +1,10 @@
 .header__lang-links {
-    margin-top: 18px;
+    margin: 18px 0 0;
+    padding: 0;
     display: grid;
     gap: 18px;
     grid-template-columns: auto auto;
+    list-style-type: none;
 }
 
 @media (max-width: 500px) {
